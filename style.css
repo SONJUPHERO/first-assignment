@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+ 
+}
+ul{
+    width:auto;
+    float:right;
+    margin-top: 20px;
+    padding-right:250px;
+}
+li{
+    display: inline-block;
+    padding: 15 px 30px;
+}
+a{
+    text-align: center;
+    padding: 20px;
+    color:black;
+    text-decoration:initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif;
+    font-size: 1.2vw;
+}
+a:hover{
+   color:#F0c330;
+   transition: 0.5s;
+
+}
+h1{
+    font-size: 50px;
+}
+#hello{
+    color: #4B0082;
+}
+#name{
+    color: blue;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width:100%;
+}
+#balance{
+   
+    margin-top: 200px;
+    
+}
+
+
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+    flex-basis: 10%;
+}
+.colums{
+    margin:0 15px 25px ;
+    box-shadow:10px 10px 40px grey;
+    background: #fff;
+    border-radius: 10px;
+}
+.card{
+    padding: 15px 25px;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+.work-project{
+    text-align: center;
+    margin-top: 20%;
+}
