@@ -24,6 +24,7 @@ a{
     text-decoration:initial;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, serif;
     font-size: 1.2vw;
+padding-right: 30px;
 }
 a:hover{
    color:#F0c330;
@@ -35,6 +36,7 @@ h1{
 }
 #hello{
     color: #4B0082;
+    padding-top: 30%;
 }
 #name{
     color: blue;
@@ -45,7 +47,7 @@ h1{
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
-    font-weight: 700;
+    font-weight: 200;
 }
 p{
     color: dimgray;
@@ -70,6 +72,7 @@ p{
 
 
 .container{
+    padding: 10%;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -91,7 +94,33 @@ img{
     width: 100%;
     max-width: 100%;
 }
-.work-project{
+
+.last-section{
+    padding: 5%;
+    max-width:  800px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flexbox;
+
+}
+.work-inquiry{
+    margin:0 10px 10px ;
+    box-shadow:10px 10px 40px rgb(40, 36, 49);
+   background-image: url("images/Group_33094_1.png");
+    border-radius: 90px;
+}
+.button{
+    padding: 80px 150px;
+    text-align: left ;
+    color:  blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#hire-me{
+    padding-right: 20px;
+}
+
+footer{
     text-align: center;
-    margin-top: 20%;
+    
 }
